@@ -1,7 +1,9 @@
+import { InputContainer } from './style';
 const Input = () => {
   return (
-    <div className="Input">
-    </div>
+    <InputContainer>
+      <Input />
+    </InputContainer>
   );
 }
 

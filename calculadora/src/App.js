@@ -1,7 +1,17 @@
+import Input from './components/Input/index';
+// import Button from './components/Button/index';
+
+
+import { Container,   Content } from "./style";
+
 const App = () => {
   return (
-    <div className="App">
-    </div>
+   <Container>
+    <Content>
+      <Input />
+      Olá
+    </Content>
+   </Container>
   );
 }
 

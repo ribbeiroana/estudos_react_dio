@@ -6,8 +6,7 @@ module.exports = {
   module: {
     rules: [
       {
-        // Corrigido para aceitar arquivos .jsx além de .js
-        test: /\.(js|jsx)$/, // Agora lida com .js e .jsx
+        test: /\.(js|jsx)$/, 
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
@@ -32,7 +31,7 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: ['.js', '.jsx'], // Resolve automaticamente .js e .jsx
+    extensions: ['.js', '.jsx'], 
   },
   plugins: [
     new HtmlWebPackPlugin({
